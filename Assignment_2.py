@@ -6,7 +6,7 @@ Problem Statement:  Write a Python program that:
 2. 	Checks whether the number is even or odd using an if-else statement.
 3. 	Displays the result accordingly.
 """
-"""
+
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
@@ -14,7 +14,7 @@ if num % 2 == 0:
 else:
     print(f"{num} is an odd number.")
 
-"""
+
 """
 Task 2: Sum of Integers from 1 to 50 Using a Loop
  
@@ -27,6 +27,7 @@ sum = 0
 for n in range(1,51):
     sum += n
 print(f"The sum of numbers from 1 to 50 is: {sum}")
+
 
 
 
