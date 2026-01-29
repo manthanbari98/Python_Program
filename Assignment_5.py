@@ -8,16 +8,16 @@ Problem Statement: Write a Python program that:
 4.   If the student’s name is not found, display an appropriate message.
 """
 
-# student_results = {"Alice" : 85, "Mark" : 79, "Jason" : 87, "Jenny" : 91}
+student_results = {"Alice" : 85, "Mark" : 79, "Jason" : 87, "Jenny" : 91}
 
-# student_results["Rob"] = 74  #just for practise
-# print(student_results)
+student_results["Rob"] = 74  #just for practise
+print(student_results)
 
-# student_name = input("Enter student's name:")
-# if student_name == student_results.keys:
-#     print(f"{student_name}'s marks: {student_results[student_name]}")
-# else:
-#     print("Student not found")
+student_name = input("Enter student's name:")
+if student_name == student_results.keys:
+    print(f"{student_name}'s marks: {student_results[student_name]}")
+else:
+    print("Student not found")
 
 """
 Task 2: Demonstrate List Slicing 
@@ -36,5 +36,6 @@ reversed_five = first_five[::-1]
 
 print("Extracted first five elements:",first_five)
 print("Reversed extracted elements",reversed_five)
+
 
 
